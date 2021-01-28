@@ -8,8 +8,8 @@ import { MemoriesComponent } from './memories/memories.component';
 const routes: Routes = [
   {path: 'celebration', component: CelebrationComponent},
   {path: 'memories', component: MemoriesComponent},
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path: '**', redirectTo: 'home'}
+  {path: '', redirectTo: 'celebration', pathMatch: 'full'},
+  {path: '**', redirectTo: 'celebration'}
 ];
 
 @NgModule({
